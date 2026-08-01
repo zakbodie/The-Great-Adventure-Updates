@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0-alpha",
+  "version": "2.1.0-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "O Despertar: nova abertura cinematográfica horizontal e nova base visual do aplicativo."
+  "notes": "Abertura cinematográfica em vídeo, rotação horizontal dos dois lados e áudio pausado ao sair do aplicativo."
 }
