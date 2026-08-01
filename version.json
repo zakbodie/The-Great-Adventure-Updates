@@ -1,5 +1,5 @@
 {
-  "version": "2.1.9-alpha",
+  "version": "2.2.0-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
   "notes": "• Página do personagem ajustada para caber inteira na tela horizontal.\n• Seletor de imagem do Android ativado para escolher o personagem.\n• Atalho para gerar imagem com IA e verificação de atualização ao retornar ao aplicativo."
 }
