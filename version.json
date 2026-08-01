@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0-alpha",
-  "apk_url": "https://github.com/zakbodie/The-Great-Adventure/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "Nova base horizontal limpa, mantendo a abertura oficial em vídeo. O aplicativo verifica novas versões, mostra o aviso, baixa o APK e abre o instalador sem precisar acessar o GitHub."
+  "version": "2.2.0-alpha",
+  "apk_url": "",
+  "notes": "A publicação automática está em manutenção. O aplicativo voltará a avisar somente quando o novo APK público estiver disponível."
 }
