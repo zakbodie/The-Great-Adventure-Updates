@@ -1,5 +1,5 @@
 {
-  "version": "2.1.0-alpha",
-  "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "Abertura cinematográfica em vídeo, rotação horizontal dos dois lados e áudio pausado ao sair do aplicativo."
+  "version": "2.2.0-alpha",
+  "apk_url": "https://github.com/zakbodie/The-Great-Adventure/releases/latest/download/The_Great_Adventure.apk",
+  "notes": "Nova abertura arcana e sistema de atualização automática restaurado. A ficha avisa quando houver uma versão nova, baixa o APK e abre o instalador preservando os dados."
 }
