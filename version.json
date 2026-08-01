@@ -1,5 +1,5 @@
 {
-  "version": "2.2.0-alpha",
+  "version": "2.3.0-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "Nova abertura arcana e sistema de atualização automática restaurado. A ficha avisa quando houver uma versão nova, baixa o APK e abre o instalador preservando os dados."
+  "notes": "Nova base horizontal limpa, mantendo a abertura oficial em vídeo. O aplicativo verifica novas versões, mostra o aviso, baixa o APK e abre o instalador sem precisar acessar o GitHub."
 }
