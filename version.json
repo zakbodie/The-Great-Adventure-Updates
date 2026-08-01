@@ -1,5 +1,5 @@
 {
   "version": "2.2.0-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "• Página do personagem ajustada para caber inteira na tela horizontal.\n• Seletor de imagem do Android ativado para escolher o personagem.\n• Atalho para gerar imagem com IA e verificação de atualização ao retornar ao aplicativo."
+  "notes": "• Nova tela inteligente de personagem com modos Criar/Editar e Visualizar.\n• Informações duplicadas removidas e retrato de corpo inteiro em maior destaque.\n• Raça e classe agora mostram detalhes contextuais somente quando selecionadas.\n• Progressão da classe disponível em painel separado, sem ocupar a tela principal."
 }
