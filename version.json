@@ -1,5 +1,5 @@
 {
-  "version": "2.2.0-alpha",
-  "apk_url": "",
-  "notes": "A publicação automática está em manutenção. O aplicativo voltará a avisar somente quando o novo APK público estiver disponível."
+  "version": "2.1.0-alpha",
+  "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
+  "notes": "Abertura cinematográfica em vídeo, rotação horizontal dos dois lados e áudio pausado ao sair do aplicativo."
 }
