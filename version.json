@@ -1,5 +1,5 @@
 {
-  "version": "2.3.2-alpha",
+  "version": "2.3.3-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "• Nova tela inicial com atalhos organizados como menu de jogo.\n• Adicionadas páginas de Atributos, Habilidades, Equipamentos, Missões e Configurações.\n• Configurações locais e área reservada para o futuro acesso do Mestre."
+  "notes": "• Botões da tela inicial refeitos com proporção maior e moldura metálica chanfrada.\n• Ícones comuns foram substituídos por ícones vetoriais próprios para cada módulo.\n• Menu reorganizado para se aproximar da referência sem esconder o cenário."
 }
