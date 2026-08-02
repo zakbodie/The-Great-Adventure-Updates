@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0-alpha",
+  "version": "2.3.1-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "• Página do personagem totalmente redesenhada.\n• Novo quadro 3:4 com ajuste de zoom e posição da imagem.\n• Botão Personagem da tela inicial também recebeu novo visual."
+  "notes": "• Novo botão para registrar o XP ganho pelo personagem.\n• Evolução automática de nível com sobra de XP preservada.\n• Vida, Mana e Energia são recalculadas ao subir de nível.\n• Nova apresentação de nível alcançado e caminho de progressão dinâmico."
 }
