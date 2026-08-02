@@ -1,5 +1,5 @@
 {
-  "version": "2.3.6-alpha",
+  "version": "2.3.7-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "• Tela inicial redesenhada com base na referência visual aprovada.\n• Novo emblema principal, botões maiores e ícones temáticos em estilo de RPG.\n• Painel do personagem ficou mais compacto e continua usando os dados reais deste celular.\n• Campanha e Mensagens foram refinados sem cortar os ícones ou avisos.\n• O novo visual continua se adaptando automaticamente ao tamanho de cada tela."
+  "notes": "• Os 17 assets oficiais da página inicial foram integrados diretamente ao aplicativo.\n• Fundo, emblema, molduras dos botões e ícones agora usam as artes aprovadas.\n• Os estados normal, selecionado e pressionado dos botões usam suas imagens próprias.\n• Campanha, Mensagens, avisos e painel inferior do personagem receberam as molduras oficiais.\n• O sistema de atualização foi corrigido para empacotar esses assets sem depender da pasta antiga.\n• Os dados locais e a ficha já criada no celular permanecem preservados."
 }
