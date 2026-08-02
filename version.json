@@ -1,5 +1,5 @@
 {
-  "version": "2.3.4-alpha",
+  "version": "2.3.5-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "• Novo sistema responsivo reconhece automaticamente o espaço real de cada celular.\n• Tela inicial, personagem, janelas e módulos se adaptam à largura, altura e proporção disponíveis.\n• Layout compacto evita botões cortados e informações saindo da tela em celulares horizontais menores.\n• A interface é recalculada ao abrir, voltar ao aplicativo, girar a tela ou mostrar o teclado."
+  "notes": "• Corrigido o recorte dos botões de Campanha e Mensagens no canto superior.\n• Avisos vermelhos agora ficam inteiros e separados da moldura angular.\n• Todos os ícones do menu receberam margem de segurança para não cortar em telas menores.\n• A correção acompanha automaticamente os modos normal, compacto e ultracompacto."
 }
