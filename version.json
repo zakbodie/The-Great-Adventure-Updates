@@ -1,5 +1,5 @@
 {
-  "version": "2.3.1-alpha",
+  "version": "2.3.2-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "• Novo botão para registrar o XP ganho pelo personagem.\n• Evolução automática de nível com sobra de XP preservada.\n• Vida, Mana e Energia são recalculadas ao subir de nível.\n• Nova apresentação de nível alcançado e caminho de progressão dinâmico."
+  "notes": "• Nova tela inicial com atalhos organizados como menu de jogo.\n• Adicionadas páginas de Atributos, Habilidades, Equipamentos, Missões e Configurações.\n• Configurações locais e área reservada para o futuro acesso do Mestre."
 }
