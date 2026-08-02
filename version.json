@@ -1,5 +1,5 @@
 {
-  "version": "2.3.11-alpha",
+  "version": "2.3.12-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "• A página inicial foi reconstruída com uma única folha de estilo, removendo as camadas de correção que estavam entrando em conflito.\n• Os seis botões principais receberam dimensões estáveis e molduras maiores, sem cortes.\n• Os ícones ficam separados das molduras por uma folga curta e têm altura visual alinhada aos botões.\n• Cada ícone usa uma escala própria para compensar as margens transparentes diferentes dos arquivos PNG.\n• Campanha, Mensagens, emblema superior e painel inferior foram reenquadrados dentro das áreas seguras.\n• Textos e áreas clicáveis continuam centralizados e funcionais em telas horizontais, incluindo 1536 × 691.\n• Os dados locais do personagem permanecem preservados."
+  "notes": "• A página inicial anterior foi restaurada exatamente a partir do histórico do projeto.\n• Os ícones, molduras e emblemas voltaram ao desenho original feito em CSS, sem utilizar os 17 PNGs adicionados posteriormente.\n• O fundo original apagado acidentalmente foi recuperado do histórico do GitHub.\n• Campanha, Mensagens e o painel do personagem retornaram ao enquadramento da versão anterior.\n• A ficha, a abertura, o salvamento local e o sistema de atualização automática atuais foram preservados.\n• Os 17 assets novos continuam guardados no repositório, mas não são usados nesta tela.\n• Os dados locais do personagem permanecem preservados."
 }
