@@ -1,5 +1,5 @@
 {
-  "version": "2.2.2-alpha",
+  "version": "2.3.0-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "• Corrigido o painel de atualização em telas horizontais.\n• Os botões Baixar atualização e Agora não ficam sempre visíveis."
+  "notes": "• Página do personagem totalmente redesenhada.\n• Novo quadro 3:4 com ajuste de zoom e posição da imagem.\n• Botão Personagem da tela inicial também recebeu novo visual."
 }
