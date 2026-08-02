@@ -1,5 +1,5 @@
 {
-  "version": "2.3.10-alpha",
+  "version": "2.3.11-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "• Os seis ícones principais foram separados das molduras e não encostam mais nos botões.\n• A altura visual de cada ícone agora acompanha a altura da respectiva barra.\n• Cada arte recebeu escala própria para manter proporção consistente entre Personagem, Atributos, Habilidades, Equipamentos, Missões e Configurações.\n• Os textos permanecem centralizados somente dentro das molduras.\n• Campanha e Mensagens receberam ícones menores, internos e com margem de segurança.\n• A área completa dos botões continua clicável e o layout horizontal compacto foi preservado.\n• Os dados locais do personagem permanecem preservados."
+  "notes": "• A página inicial foi reconstruída com uma única folha de estilo, removendo as camadas de correção que estavam entrando em conflito.\n• Os seis botões principais receberam dimensões estáveis e molduras maiores, sem cortes.\n• Os ícones ficam separados das molduras por uma folga curta e têm altura visual alinhada aos botões.\n• Cada ícone usa uma escala própria para compensar as margens transparentes diferentes dos arquivos PNG.\n• Campanha, Mensagens, emblema superior e painel inferior foram reenquadrados dentro das áreas seguras.\n• Textos e áreas clicáveis continuam centralizados e funcionais em telas horizontais, incluindo 1536 × 691.\n• Os dados locais do personagem permanecem preservados."
 }
