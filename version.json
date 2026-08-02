@@ -1,5 +1,5 @@
 {
-  "version": "2.3.8-alpha",
+  "version": "2.3.9-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "• Corrigido o enquadramento geral da página inicial em telas horizontais.\n• Ícones principais, emblema e painel inferior receberam escala maior e mais legível.\n• Botões agora ocupam corretamente o espaço disponível sem sair da tela.\n• Campanha, Mensagens e notificações foram reposicionados para permanecer dentro da área segura.\n• O ajuste responde automaticamente a telas compactas e mantém os dados locais preservados."
+  "notes": "• A página inicial foi recomposta por blocos, sem usar a mesma escala para todas as imagens.\n• Os seis botões principais agora preenchem melhor cada coluna, com molduras mais altas e textos centralizados.\n• Cada ícone recebeu escala e posição próprias, mantendo a sobreposição elegante na lateral esquerda.\n• Campanha e Mensagens foram refeitos com ícones maiores, texto legível e notificações alinhadas.\n• O emblema do título e o painel inferior foram ampliados e reenquadrados sem sobreposição de informações.\n• A área inteira de cada botão continua clicável e a adaptação para telas horizontais compactas foi preservada.\n• Os dados locais do personagem continuam preservados."
 }
