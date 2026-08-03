@@ -1,5 +1,5 @@
 {
-  "version": "2.3.14-alpha",
+  "version": "2.3.15-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "• A página inicial agora usa a paisagem da arte aprovada, com cidade fantástica, castelo, luz mágica e aventureiro.\n• A imagem foi limpa para remover moedas, cristais, títulos, barras e informações fictícias.\n• Os seis módulos foram reorganizados em uma coluna compacta à esquerda, com identidade visual própria e botões reais.\n• Campanha, Mensagens e o painel inferior continuam funcionais.\n• O painel inferior mostra somente os dados reais salvos neste dispositivo.\n• A ficha, o vídeo de abertura, o salvamento local e o sistema de atualização automática foram preservados.\n• Publicação completa da versão 2.3.14-alpha."
+  "notes": "• A página principal foi completamente zerada para reconstrução do zero.\n• Todos os fundos, botões, painéis, textos e elementos visuais da tela inicial foram desativados.\n• A ficha do personagem, os dados locais, a abertura e o sistema de atualização automática foram preservados.\n• Nenhum dado salvo do jogador foi apagado.\n• Esta versão cria uma base visual vazia para o novo projeto da página principal."
 }
