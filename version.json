@@ -1,5 +1,5 @@
 {
-  "version": "2.3.24-alpha",
+  "version": "2.3.25-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "• A imagem principal da tela inicial agora ocupa toda a área disponível do aparelho.\n• As faixas pretas laterais foram removidas.\n• O visual continua sendo uma única imagem, sem recortes, emendas, filtros ou elementos visuais adicionais.\n• As áreas transparentes dos botões foram ajustadas para acompanhar o novo preenchimento da tela.\n• A ficha do personagem, os dados locais, a abertura e o sistema de atualização automática foram preservados.\n• Nenhum dado salvo do jogador foi apagado.\n• Publicação da versão 2.3.24-alpha."
+  "notes": "• A tela inicial foi adaptada para a resolução útil de 1536 × 691 pixels.\n• A imagem agora preenche toda a tela sem alongar, achatar ou deformar o castelo, o logotipo, os botões ou os demais elementos centrais.\n• O cenário foi ampliado somente nas laterais, usando as próprias bordas da arte para eliminar as faixas pretas.\n• As áreas transparentes dos botões foram reposicionadas para acompanhar exatamente a imagem corrigida.\n• A ficha do personagem, os dados locais, a abertura e o sistema de atualização automática foram preservados.\n• Nenhum dado salvo do jogador foi apagado.\n• Publicação da versão 2.3.25-alpha."
 }
