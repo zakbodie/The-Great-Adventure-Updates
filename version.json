@@ -1,5 +1,5 @@
 {
-  "version": "2.3.17-alpha",
+  "version": "2.3.18-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "• A nova tela inicial usa somente a imagem horizontal aprovada.\n• A imagem ocupa toda a tela, sem animações, efeitos ou elementos visuais adicionais.\n• A ficha do personagem, os dados locais, a abertura e o sistema de atualização automática foram preservados.\n• Nenhum dado salvo do jogador foi apagado.\n• O arquivo usado é app/src/main/assets/media/home_screen.png.\n• Publicação da tela inicial estática na versão 2.3.17-alpha."
+  "notes": "• A tela inicial foi substituída pela nova imagem clara em proporção 21:9.\n• A imagem é exibida inteira, sem corte e sem escurecimento adicional.\n• A imagem anterior da tela inicial foi removida.\n• A ficha do personagem, os dados locais, a abertura e o sistema de atualização automática foram preservados.\n• Nenhum dado salvo do jogador foi apagado.\n• Publicação da versão 2.3.18-alpha.\n• Confirmação da publicação da imagem clara em 21:9."
 }
