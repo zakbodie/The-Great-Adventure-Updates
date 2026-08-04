@@ -1,5 +1,5 @@
 {
-  "version": "2.3.26-alpha",
+  "version": "2.3.27-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
-  "notes": "• A imagem anterior da tela inicial foi removida e substituída integralmente pela arte aprovada nesta conversa.\n• A nova arte tem resolução nativa de 1536 × 691 pixels e preenche toda a tela sem esticar, achatar, espelhar, duplicar ou completar artificialmente o cenário.\n• Nenhuma parte da imagem anterior permanece visível por baixo ou ao redor da nova arte.\n• As áreas transparentes dos botões laterais, Campanha e Mensagens foram alinhadas à nova composição.\n• A ficha do personagem, os dados locais, a abertura e o sistema de atualização automática foram preservados.\n• Nenhum dado salvo do jogador foi apagado.\n• Publicação da versão 2.3.26-alpha."
+  "notes": "• A página inicial anterior foi zerada para receber a nova arte que está sendo criada.\n• A imagem antiga e todos os pacotes temporários usados para reconstruí-la foram removidos do aplicativo.\n• Foram preservadas as áreas e a programação dos botões Personagem, Atributos, Habilidades, Equipamentos, Missões, Configurações, Campanha e Mensagens.\n• A ficha do personagem, os dados locais, a abertura oficial e o sistema de atualização automática permanecem intactos.\n• Nenhum dado salvo do jogador será apagado durante a atualização.\n• Publicação da versão 2.3.27-alpha."
 }
