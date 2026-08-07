@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "enabled": true,
+  "revision": 1,
+  "min_app_version": "2.3.58-alpha",
+  "css_url": "https://raw.githubusercontent.com/zakbodie/The-Great-Adventure-Updates/main/ui-overrides.css",
+  "layout_defaults": {
+    "character": { "targets": {} },
+    "attributes": { "targets": {} },
+    "module": { "targets": {} }
+  },
+  "notes": "Canal visual remoto inicial. Ajustes locais do dispositivo têm prioridade sobre os padrões remotos."
+}
