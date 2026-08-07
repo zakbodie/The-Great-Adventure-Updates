@@ -1,7 +1,7 @@
 /*
  * The Great Adventure — pacote visual remoto.
- * Revisão 2 — Configurações em uma tela e controle compacto do Editor de Layout.
- * Requer app 2.3.58-alpha ou superior.
+ * Revisão 3 — Configurações compactas + toque universal reforçado no Editor de Layout.
+ * Requer app 2.3.59-alpha ou superior para a seleção universal completa.
  */
 
 /* ==========================================================
@@ -136,8 +136,7 @@
 }
 
 /* ==========================================================
-   EDITOR — O ELEMENTO É ESCOLHIDO TOCANDO DIRETAMENTE NA FICHA
-   O seletor antigo fica fora do caminho.
+   EDITOR — CONTROLE COMPACTO E TOQUE DIRETO
    ========================================================== */
 .tga-layout-toolbar358{
   left:50%!important;
@@ -183,10 +182,7 @@
   padding:3px 5px!important;
   font-size:6px!important;
 }
-/* Não é mais necessário escolher pelo menu: tocar no item já seleciona. */
-#tgaLayoutTargetSelect358{
-  display:none!important;
-}
+#tgaLayoutTargetSelect358{display:none!important}
 .tga-layout-target-label358{
   flex:1 1 auto!important;
   width:auto!important;
@@ -218,7 +214,6 @@
   padding:0 4px!important;
   font-size:6px!important;
 }
-/* Seleção limpa: números/textos pequenos recebem apenas contorno, sem bolinhas. */
 .tga-layout-selection358.micro{
   border:1px solid rgba(101,214,255,.95)!important;
   box-shadow:0 0 0 2px rgba(4,18,27,.72),0 0 10px rgba(83,201,241,.32)!important;
@@ -227,6 +222,70 @@
 .tga-layout-selected358{
   outline:1px dashed rgba(110,221,255,.78)!important;
   outline-offset:2px!important;
+}
+
+/* ==========================================================
+   REVISÃO 3 — ACERTO DE TOQUE UNIVERSAL
+   Tudo que já é um alvo separado do fundo deve receber o toque diretamente.
+   ========================================================== */
+body.tga-layout-editing358 [data-tga-layout-target]{
+  touch-action:none!important;
+  -webkit-tap-highlight-color:transparent!important;
+  pointer-events:auto!important;
+}
+body.tga-layout-editing358 svg [data-tga-layout-target]{
+  pointer-events:bounding-box!important;
+}
+/* Letras/números SVG: o toque vale em toda a caixa visual do texto. */
+body.tga-layout-editing358 #attributesSvg348 text,
+body.tga-layout-editing358 #tgaCharacterHud347 text,
+body.tga-layout-editing358 #characterPage svg text{
+  pointer-events:bounding-box!important;
+  cursor:move!important;
+}
+/* tspans não roubam o toque do elemento de texto pai. */
+body.tga-layout-editing358 #attributesSvg348 text>tspan,
+body.tga-layout-editing358 #tgaCharacterHud347 text>tspan,
+body.tga-layout-editing358 #characterPage svg text>tspan{
+  pointer-events:none!important;
+}
+/* Imagens/ícones SVG usam sua caixa inteira como alvo, inclusive áreas transparentes internas. */
+body.tga-layout-editing358 #attributesSvg348 image,
+body.tga-layout-editing358 #characterPage svg image{
+  pointer-events:bounding-box!important;
+  cursor:move!important;
+}
+/* Quando um alvo é um grupo SVG, os desenhos internos não desviam o toque do grupo. */
+body.tga-layout-editing358 svg g[data-tga-layout-target]>path,
+body.tga-layout-editing358 svg g[data-tga-layout-target]>rect,
+body.tga-layout-editing358 svg g[data-tga-layout-target]>circle,
+body.tga-layout-editing358 svg g[data-tga-layout-target]>ellipse,
+body.tga-layout-editing358 svg g[data-tga-layout-target]>line,
+body.tga-layout-editing358 svg g[data-tga-layout-target]>polyline,
+body.tga-layout-editing358 svg g[data-tga-layout-target]>polygon,
+body.tga-layout-editing358 svg g[data-tga-layout-target]>use{
+  pointer-events:none!important;
+}
+/* HTML: nomes, números, botões, imagens e textos separados continuam clicáveis mesmo quando pequenos. */
+body.tga-layout-editing358 #characterPage img,
+body.tga-layout-editing358 #characterPage button,
+body.tga-layout-editing358 #characterPage span,
+body.tga-layout-editing358 #characterPage strong,
+body.tga-layout-editing358 #characterPage small,
+body.tga-layout-editing358 #characterPage p,
+body.tga-layout-editing358 #characterPage h1,
+body.tga-layout-editing358 #characterPage h2,
+body.tga-layout-editing358 #characterPage h3,
+body.tga-layout-editing358 #characterPage label,
+body.tga-layout-editing358 #characterPage output{
+  pointer-events:auto!important;
+  touch-action:none!important;
+}
+/* As artes principais continuam fora do editor. */
+body.tga-layout-editing358 .attributes-art,
+body.tga-layout-editing358 #characterPage .app-shell::before,
+body.tga-layout-editing358 #characterPage .app-shell::after{
+  pointer-events:none!important;
 }
 
 @media (orientation:landscape) and (max-height:620px){
