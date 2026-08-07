@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "enabled": true,
-  "revision": 2,
-  "min_app_version": "2.3.58-alpha",
+  "revision": 3,
+  "min_app_version": "2.3.59-alpha",
   "css_url": "https://raw.githubusercontent.com/zakbodie/The-Great-Adventure-Updates/main/ui-overrides.css",
   "layout_defaults": {
     "character": { "targets": {} },
     "attributes": { "targets": {} },
     "module": { "targets": {} }
   },
-  "notes": "Revisão 2: Configurações compactadas para caber em uma única tela e Editor de Layout convertido em controle flutuante compacto. O seletor de elementos foi ocultado porque o Editor 358 já seleciona diretamente pelo toque na ficha. Ajustes locais continuam tendo prioridade."
+  "notes": "Revisão 3: reforço remoto do toque universal no Editor de Layout 359. Textos, números, ícones, imagens e demais elementos separados do fundo recebem área de toque direta/por bounding box; tspans e formas internas deixam de roubar o toque do alvo pai. A arte principal continua bloqueada. Nenhum APK novo é necessário."
 }
