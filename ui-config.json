@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "enabled": true,
-  "revision": 1,
+  "revision": 2,
   "min_app_version": "2.3.58-alpha",
   "css_url": "https://raw.githubusercontent.com/zakbodie/The-Great-Adventure-Updates/main/ui-overrides.css",
   "layout_defaults": {
@@ -9,5 +9,5 @@
     "attributes": { "targets": {} },
     "module": { "targets": {} }
   },
-  "notes": "Canal visual remoto inicial. Ajustes locais do dispositivo têm prioridade sobre os padrões remotos."
+  "notes": "Revisão 2: Configurações compactadas para caber em uma única tela e Editor de Layout convertido em controle flutuante compacto. O seletor de elementos foi ocultado porque o Editor 358 já seleciona diretamente pelo toque na ficha. Ajustes locais continuam tendo prioridade."
 }
