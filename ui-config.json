@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "enabled": true,
-  "revision": 4,
+  "revision": 5,
   "min_app_version": "2.3.60-alpha",
-  "css_url": "https://raw.githubusercontent.com/zakbodie/The-Great-Adventure-Updates/main/ui-overrides.css",
+  "css_url": "https://raw.githubusercontent.com/zakbodie/The-Great-Adventure-Updates/main/ui-overrides-r5.css",
   "layout_defaults": {
     "character": { "targets": {} },
     "attributes": { "targets": {} },
     "module": { "targets": {} }
   },
-  "notes": "Revisão 4: corrige a barra compacta do Editor de Layout para manter IMG + e IMG − sempre visíveis em Personagem e Atributos. A barra agora pode quebrar linha em telas menores sem cortar os controles. IMG + abre o seletor de imagens do aparelho; IMG − remove/oculta a imagem selecionada. Requer 2.3.60-alpha; nenhum APK novo é necessário."
+  "notes": "Revisão 5: reorganiza Atributos 364 com referência real no HTML de exemplo — três contadores compactos, sete ciclos em quatro colunas por duas linhas e Especial ocupando a coluna final; reduz ornamentos e recortes para uma leitura mais limpa. Na página Personagem, remove as placas/máscaras escuras adicionadas na 364 e deixa somente um saldo real por moeda, transparente sobre a arte e ainda editável no Editor de Layout. Entrega pela sincronização visual remota; não exige novo APK."
 }
