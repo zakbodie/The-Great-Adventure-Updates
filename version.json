@@ -1,5 +1,5 @@
 {
-  "version": "2.3.71-alpha",
+  "version": "2.3.72-alpha",
   "apk_url": "https://github.com/zakbodie/The-Great-Adventure-Updates/releases/latest/download/The_Great_Adventure.apk",
   "notes": "• Corrigido o fluxo de atualização automática que ficou preso porque a 2.3.70-alpha nunca chegou a ser publicada no repositório público de Updates.\n• A versão pública anterior permanecia em 2.3.69-alpha; a 2.3.71-alpha / versionCode 90 volta a fornecer uma versão realmente superior para o aplicativo detectar.\n• A tentativa estática de ATRIBUTOS 370 foi retirada do APK porque o PNG versionado estava estruturalmente corrompido e bloqueava a geração do instalador.\n• ATRIBUTOS retorna temporariamente ao último runtime conhecido e validado: automação 365 + arte 368 em camada única, preservando regras, valores e `tgaCharacter`.\n• PERSONAGEM 369, moedas 365, Editor 358, atomização 361, imagens 360 e persistência 362 permanecem intactos.\n• Nenhum dado local, ficha, layout ou imagem salva é apagado pela atualização.\n• Publicação da versão 2.3.71-alpha / versionCode 90."
 }
