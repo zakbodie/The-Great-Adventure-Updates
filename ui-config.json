@@ -1,13 +1,12 @@
 {
   "schema": 1,
   "enabled": true,
-  "revision": 5,
-  "min_app_version": "2.3.60-alpha",
-  "css_url": "https://raw.githubusercontent.com/zakbodie/The-Great-Adventure-Updates/main/ui-overrides-r5.css",
+  "revision": 6,
+  "min_app_version": "2.3.88-alpha",
+  "css_url": "https://raw.githubusercontent.com/zakbodie/The-Great-Adventure-Updates/main/ui-overrides-r6.css",
   "layout_defaults": {
     "character": { "targets": {} },
-    "attributes": { "targets": {} },
-    "module": { "targets": {} }
+    "attributes": { "targets": {} }
   },
-  "notes": "Revisão 5: reorganiza Atributos 364 com referência real no HTML de exemplo — três contadores compactos, sete ciclos em quatro colunas por duas linhas e Especial ocupando a coluna final; reduz ornamentos e recortes para uma leitura mais limpa. Na página Personagem, remove as placas/máscaras escuras adicionadas na 364 e deixa somente um saldo real por moeda, transparente sobre a arte e ainda editável no Editor de Layout. Entrega pela sincronização visual remota; não exige novo APK."
+  "notes": "Revisão 6: pacote remoto compatível com o Layout Geral 2.0 da 2.3.88-alpha. Remove autoridade remota sobre Configurações, shell module e editor. Não redefine Home, Configurações, Layout Geral 2.0, elementos personalizados nem geometria salva. O layout pessoal confirmado no dispositivo permanece acima dos defaults remotos."
 }
