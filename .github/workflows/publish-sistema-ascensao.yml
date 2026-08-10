@@ -1,0 +1,71 @@
+name: Publicar Sistema de Ascensão
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/publish-sistema-ascensao.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      APP_VERSION: 1.1.0-alpha01
+      APP_VERSION_CODE: 2
+      SOURCE_APK_URL: https://raw.githubusercontent.com/zakbodie/Sistema-de-Ascensao/main/distribution/Sistema_de_Ascensao.apk?token=CKIVTQDQ2O464WDGQWQ6TI3KPIZURAA
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Baixar APK compilado do projeto privado
+        shell: bash
+        run: |
+          curl -L --fail --retry 3 --retry-delay 2 "$SOURCE_APK_URL" -o Sistema_de_Ascensao.apk
+          test -s Sistema_de_Ascensao.apk
+          file Sistema_de_Ascensao.apk
+
+      - name: Preparar canal público isolado
+        shell: bash
+        run: |
+          mkdir -p sistema-ascensao
+          APK_NAME="Sistema_de_Ascensao-${APP_VERSION}.apk"
+          ZIP_NAME="Sistema_de_Ascensao-${APP_VERSION}.zip"
+          mv Sistema_de_Ascensao.apk "sistema-ascensao/$APK_NAME"
+          zip -j "sistema-ascensao/$ZIP_NAME" "sistema-ascensao/$APK_NAME"
+          SHA256=$(sha256sum "sistema-ascensao/$APK_NAME" | awk '{print $1}')
+          python - <<'PY'
+          import json, os
+          version = os.environ['APP_VERSION']
+          code = int(os.environ['APP_VERSION_CODE'])
+          apk_name = f"Sistema_de_Ascensao-{version}.apk"
+          data = {
+              "version": version,
+              "versionCode": code,
+              "apk_url": f"https://raw.githubusercontent.com/zakbodie/The-Great-Adventure-Updates/main/sistema-ascensao/{apk_name}",
+              "notes": "• Painel do Sistema redesenhado como Central de Comando.\n• Missão principal ganhou acesso destacado em um toque.\n• Novos cartões de navegação para Hidratação, Disciplina, Evolução, Conquistas, Ajustes e Atualizações.\n• Rank, nível, XP e requisitos de ascensão ficaram mais fáceis de consultar.\n• Novo atualizador interno com tela premium, versão atual x nova versão e notas da atualização.\n• Download da atualização feito pelo próprio aplicativo e abertura automática do instalador.\n• Todo o progresso local continua preservado.",
+              "required": False,
+              "sha256": os.popen(f"sha256sum sistema-ascensao/{apk_name}").read().split()[0]
+          }
+          with open('sistema-ascensao/version.json', 'w', encoding='utf-8') as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
+              f.write('\n')
+          PY
+          cat > sistema-ascensao/README.md <<EOF
+          # Sistema de Ascensão — canal de atualização
+
+          Este diretório pertence exclusivamente ao aplicativo Sistema de Ascensão.
+          Ele não altera o manifesto, APK ou release do The Great Adventure.
+
+          Versão publicada: ${APP_VERSION} / versionCode ${APP_VERSION_CODE}
+          EOF
+
+      - name: Publicar APK, ZIP e manifesto
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sistema-ascensao/
+          git commit -m "Publicar Sistema de Ascensão ${APP_VERSION}" || exit 0
+          git push
