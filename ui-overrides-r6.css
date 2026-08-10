@@ -1,0 +1,13 @@
+/*
+ * The Great Adventure — UI Remota Revisão 6
+ * Compatível com 2.3.88-alpha / Layout Geral 2.0.
+ *
+ * Esta revisão é intencionalmente defaults-only.
+ * NÃO redefine Home, Configurações, shell `module`, Layout Geral 2.0,
+ * elementos personalizados, geometria salva, Inspector, toolbar ou assets do usuário.
+ *
+ * A autoridade visual de Configurações e do Layout Geral 2.0 pertence ao APK local.
+ * O layout pessoal confirmado pelo usuário sempre tem prioridade sobre defaults remotos.
+ */
+
+/* Nenhum override estrutural é necessário nesta revisão. */
